@@ -16,3 +16,50 @@ img {
   display: block;
   max-width: 100%;
 }
+.buttons {
+  margin-top: 150px;
+  margin-left: 150px;
+}
+.btn {
+  text-transform: uppercase;
+  margin-left: 15px;
+  min-height: 40px;
+  min-width: 80px;
+}
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+.form {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+label {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
